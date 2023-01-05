@@ -5,7 +5,7 @@
 }
 
 .main {
-  background: linear-gradient(to right, #6a82fb, #fc5c7d);
+  background: rgba(255, 167, 229, 0.699);
   background-repeat: no-repeat;
   width: 100%;
   display: flex;
@@ -24,4 +24,5 @@ h1 {
   color: rgb(41, 41, 41);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
