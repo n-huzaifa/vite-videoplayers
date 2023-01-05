@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background: linear-gradient(to right, #6a82fb, #fc5c7d);
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.main-body {
+  width: 70%;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(41, 41, 41);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
