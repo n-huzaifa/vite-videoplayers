@@ -5,16 +5,15 @@ function Videoplayer() {
   const playerRef = React.useRef(null);
 
   const videoJsOptions = {
-    autoplay: false,
+    autoplay: true,
     controls: true,
-    width: "1080",
-    height: "608",
-    sources: [
-      {
-        src: "/720p.mp4",
-        type: "video/mp4",
-      },
-    ],
+    fluid: true,
+    muted: false,
+    responsive: true,
+    sources: {
+      src: "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
+      type: "application/x-mpegURL",
+    },
   };
 
   const handlePlayerReady = (player) => {
