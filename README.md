@@ -1,4 +1,4 @@
-# Vite Videoplayers
+# Vite Videoplayers [![Netlify Status](https://api.netlify.com/api/v1/badges/54718acb-74a1-4b50-b66d-cba03378b14a/deploy-status)](https://app.netlify.com/sites/vite-videoplayer/deploys)
 
 This project is bootstraped with Vite + React. I used the Vite build tool for its fast development experience instead of CRA.
 
